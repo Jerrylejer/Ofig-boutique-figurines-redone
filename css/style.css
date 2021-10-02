@@ -1,12 +1,15 @@
 /* Rouge : #c80000
 Gris foncé : #666
 Gris clair (bordures et catégorie): #ccc 
+Or : #80
 Font : Raleway
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
 
+/* ********************************* */
 /* GENERAL */
+/* ******************************** */
 
 html,
 body {
@@ -18,11 +21,12 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
-
-/* HEADER */
+/* ********************************* */
+/* SECTION HEADER */
+/* ********************************* */
 
 .header {
-  width: 900px;
+  max-width: 900px;
   margin: 20px auto;
 }
 
@@ -60,19 +64,22 @@ body {
   font-size: 1.2em;
 }
 
+/* ******************************** */
 /* MAIN */
+/* ******************************** */
 
 .main__boutiqueFigurines {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .main__boutiqueFigurines-encarts {
-  width: 31.3%;
+  width: 32%;
   border: 1px solid lightgray;
   padding: 0.7em;
   margin-top: 0.7em;
@@ -138,7 +145,43 @@ body {
   flex: 0.5;
 }
 
+/* bannières promotionnelles */
+
+.main__boutiqueFigurines-bannière1 {
+  position: absolute;
+  top: 1em;
+  left: 17.5em;
+  background-color: #c80;
+  color: white;
+  writing-mode: vertical-lr;
+  text-align: center;
+  width: 2em;
+  height: 5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.main__boutiqueFigurines-soldes {
+  font-weight: bold;
+}
+
+.main__boutiqueFigurines-bannière2 {
+  position: absolute;
+  top: 28em;
+  left: 17.5em;
+  background-color: #c80;
+  color: white;
+  writing-mode: vertical-lr;
+  text-align: center;
+  width: 2em;
+  height: 5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+/* ****************************** */
 /* FOOTER */
+/* ****************************** */
 
 .main__footer {
   width: 900px;
