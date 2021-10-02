@@ -38,6 +38,7 @@ body {
   padding: 0.7em;
   text-align: center;
   color: white;
+  box-shadow: 0px 14px 15px -1px rgba(0, 0, 0, 0.24);
 }
 
 /* textes */
@@ -73,9 +74,21 @@ body {
 .main__boutiqueFigurines-encarts {
   width: 31.3%;
   border: 1px solid lightgray;
-  padding: 1em;
+  padding: 0.7em;
   margin-top: 0.7em;
   margin-right: 1em;
+}
+
+.main__boutiqueFigurines-encarts:nth-child(3) {
+  margin-right: 0;
+}
+
+.main__boutiqueFigurines-encarts:nth-child(6) {
+  margin-right: 0;
+}
+
+.main__boutiqueFigurines-encarts:nth-child(9) {
+  margin-right: 0;
 }
 
 .main__boutiqueFigurinesPhotos {
@@ -104,20 +117,25 @@ body {
 }
 
 .main__boutiqueFigurines-texteBoutonpanier {
+  display: flex;
   background-color: #c80000;
   padding: 1em;
   color: white;
   font-size: 0.8em;
-  display: flex;
-  /* justify-content: center; */
+}
+
+.main__boutiqueFigurines-ajouter {
+  flex: 1;
 }
 
 .main__boutiqueFigurines-tarif {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .main__boutiqueFigurines-tarifBarré {
   text-decoration-line: line-through;
+  flex: 0.5;
 }
 
 /* FOOTER */
