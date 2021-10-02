@@ -83,19 +83,15 @@ body {
   border: 1px solid lightgray;
   padding: 0.7em;
   margin-top: 0.7em;
-  margin-right: 1em;
 }
 
-.main__boutiqueFigurines-encarts:nth-child(3) {
-  margin-right: 0;
-}
-
-.main__boutiqueFigurines-encarts:nth-child(6) {
-  margin-right: 0;
-}
-
-.main__boutiqueFigurines-encarts:nth-child(9) {
-  margin-right: 0;
+.main__boutiqueFigurines-encartsMiddle {
+  width: 32%;
+  border: 1px solid lightgray;
+  padding: 0.7em;
+  margin-top: 0.7em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 .main__boutiqueFigurinesPhotos {
@@ -129,6 +125,13 @@ body {
   padding: 1em;
   color: white;
   font-size: 0.8em;
+  border-radius: 0.2em;
+}
+
+.main__boutiqueFigurines-texteBoutonpanier:hover {
+  background-color: #c80;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .main__boutiqueFigurines-ajouter {
