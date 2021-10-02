@@ -1,0 +1,135 @@
+/* Rouge : #c80000
+Gris foncé : #666
+Gris clair (bordures et catégorie): #ccc 
+Font : Raleway
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+/* GENERAL */
+
+html,
+body {
+  font-family: "raleway", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  width: 900px;
+  margin: 20px auto;
+}
+
+/* div */
+.header__logoOfig {
+  background-color: #c80000;
+  padding: 1em;
+  color: white;
+}
+
+.header__sousTitreOfig {
+  background-color: #666;
+  padding: 0.7em;
+  text-align: center;
+  color: white;
+}
+
+/* textes */
+
+.header__sloganOfig {
+  padding-left: 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+}
+.header__sloganOfig-minus {
+  font-size: 0.3em;
+  padding-left: 0.7em;
+}
+.header__texteBoutiqueFFantasy {
+  font-size: 1em;
+}
+.header__texteBoutiqueFFantasy-italic {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* MAIN */
+
+.main__boutiqueFigurines {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main__boutiqueFigurines-encarts {
+  width: 31.3%;
+  border: 1px solid lightgray;
+  padding: 1em;
+  margin-top: 0.7em;
+  margin-right: 1em;
+}
+
+.main__boutiqueFigurinesPhotos {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.main__boutiqueFigurines-titreh3 {
+  color: #ccc;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.main__boutiqueFigurines-titreh2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.main__boutiqueFigurines-description {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.main__boutiqueFigurines-texteBoutonpanier {
+  background-color: #c80000;
+  padding: 1em;
+  color: white;
+  font-size: 0.8em;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.main__boutiqueFigurines-tarif {
+  font-size: 1.3em;
+}
+
+.main__boutiqueFigurines-tarifBarré {
+  text-decoration-line: line-through;
+}
+
+/* FOOTER */
+
+.main__footer {
+  width: 900px;
+  background-color: #666;
+  margin: 0 auto;
+  padding: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+}
